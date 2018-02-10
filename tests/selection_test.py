@@ -10,7 +10,6 @@ class TestSelection(unittest.TestCase):
         s = Selection(predicate)
 
         for row in s:
-            print(row)
             results.append(row)
 
         s.close_file()
